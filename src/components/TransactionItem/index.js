@@ -7,7 +7,7 @@ const TransactionItem = props => {
   const onDelete = () => {
     deleteHistory(id)
   }
-  
+
   const typeText = type === 'INCOME' ? 'Income' : 'Expenses'
 
   return (
