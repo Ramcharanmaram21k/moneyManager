@@ -1,0 +1,47 @@
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.details-card {
+  display: flex;
+  align-items: center;
+  width: 32%;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.details-card.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.details-card.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.details-card.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.details-card-image {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+
+.details-card-title {
+  color: #475569;
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+.details-card-amount {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}

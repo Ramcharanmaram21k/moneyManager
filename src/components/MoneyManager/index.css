@@ -1,0 +1,111 @@
+/* General App Styles */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.money-manager-content {
+  width: 80%;
+  max-width: 1100px;
+  padding-top: 32px;
+}
+
+/* Header Styles */
+.header-container {
+  padding: 30px;
+  margin-bottom: 32px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.header-title {
+  color: #475569;
+  font-size: 32px;
+  margin: 0;
+}
+
+.header-subtitle {
+  color: #475569;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.money-manager-text {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+/* Transaction and History Container */
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 32px;
+}
+
+/* Form Styles */
+.form {
+  width: 35%;
+  padding: 24px;
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-header {
+  color: #1e293b;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.input-label {
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #d7dfe9;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  outline: none;
+  font-size: 14px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+/* History Section Styles */
+.history-container {
+  width: 60%;
+  padding: 24px;
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+}
+
+.transactions-table-container {
+  height: 100%;
+}
+
+.transactions-table {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
